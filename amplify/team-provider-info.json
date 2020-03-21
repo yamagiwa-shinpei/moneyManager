@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-money-dev-55803-authRole",
+            "UnauthRoleArn": "arn:aws:iam::094813052701:role/amplify-money-dev-55803-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::094813052701:role/amplify-money-dev-55803-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-money-dev-55803-deployment",
+            "UnauthRoleName": "amplify-money-dev-55803-unauthRole",
+            "StackName": "amplify-money-dev-55803",
+            "StackId": "arn:aws:cloudformation:eu-central-1:094813052701:stack/amplify-money-dev-55803/daa845b0-5e5a-11ea-946c-068257d07648",
+            "AmplifyAppId": "d3koduczr30jjk"
+        },
+        "categories": {
+            "auth": {
+                "money9be76b1e": {}
+            }
+        }
+    }
+}

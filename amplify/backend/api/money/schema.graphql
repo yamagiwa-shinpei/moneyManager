@@ -1,0 +1,20 @@
+type Card @model {
+  id: ID!
+  type: String
+  name: String!
+  balance: Float
+  image: String
+  payment: [Payments] @connection(name: "CordPayments")
+}
+type Payments @model {
+  id: ID!
+  genre: String!
+  pay: Float!
+  createdAt: String
+  card: Card @connection(name: "CordPayments")
+}
+
+type TargetValue @model {
+  id: ID!
+  value: Float!
+}
